@@ -19,6 +19,7 @@
   )改为）
   ,改为，
 */
+
 #pragma once
 
 /*+----------------------------------------------------------------------------------------+*/
@@ -88,6 +89,21 @@ typedef (const char) 文件名;
 /*+----------------------------------------------------------------------------------------+*/
 #define 引用		include;
 #define 规定		define;
+#define 如果规定          ifdef;
+#define 如果没有规定       ifndef;
+#define 取消规定           undef;
+#define 如果              if;
+#define 不然              elif;
+#define 否则              else;
+#define 结束              endif;
+#define 出错              error;
+#define 编译一次          (pragma once);
+#define 编译消息          (pragma message);
+#define 编译警告          (pragma warning);
+#define 编译注释          (pragma comment);
+#define 编译结束          (pragma hdrstop);
+#define 编译资源          (pragma resource);
+
 #define 主函数		main;
 #define 标准输入输出	stdio;
 #define 输出		printf;
