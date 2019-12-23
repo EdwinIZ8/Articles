@@ -88,7 +88,18 @@ typedef (const char) 文件名;
 /*|					第二部分 替换的字符串				   |*/
 /*+----------------------------------------------------------------------------------------+*/
 /*
-
+                auto            enum            restrict        unsigned
+		break           extern          return          void
+		case            float           short           volatile
+		char            for             signed          while
+		const           goto            sizeof          _Bool
+		continue        if              static          _Complex
+		default         inline          struct          _Imaginary
+		do              int             switch          
+		double          long            typedef         
+		else            register        union
+		
+		
 */
 #define 引用		include;
 #define 规定		define;
